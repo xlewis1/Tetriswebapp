@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- SCOREBOARD -->
+    <div class="scoreboard">
+        <div class="score-item">Score: <span id="score">0</span></div>
+        <div class="score-item">Level: <span id="level">1</span></div>
+        <div class="score-item">Lines: <span id="lines">0</span></div>
+        <div class="score-item">Hold: <span id="hold-piece">None</span></div>
+    </div>
+
+    <!-- GAME CANVAS -->
+    <canvas id="board" width="300" height="600"></canvas>
+
+    <!-- MOBILE CONTROLS -->
+    <div class="controls">
+
+        <!-- DPAD -->
+        <div class="dpad">
+            <button class="btn rotate" id="btn-rotate">⟳</button>
+
+            <div class="middle-row">
+                <button class="btn left" id="btn-left">◀</button>
+                <button class="btn down" id="btn-down">▼</button>
+                <button class="btn right" id="btn-right">▶</button>
+            </div>
+        </div>
+
+        <!-- EXTRA BUTTONS -->
+        <div class="right-buttons">
+            <button class="btn harddrop" id="btn-hard">⤓</button>
+            <button class="btn hold" id="btn-hold">⧉</button>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
