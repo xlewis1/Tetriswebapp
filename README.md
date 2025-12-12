@@ -1,4 +1,4 @@
-# Tetris Web App
+# Block SLider (Tetris web app)
 
 A classic Tetris game built with **HTML, CSS, and JavaScript**.  
 Fully playable on **desktop, tablet, and mobile devices**, with responsive controls including a **D-Pad, rotate, hard drop, and hold**.
